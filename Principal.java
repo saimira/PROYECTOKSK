@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+//holalaalaksmaubnshnasa
 
 public class Principal extends JFrame implements ActionListener{
   
@@ -181,9 +182,9 @@ public class Principal extends JFrame implements ActionListener{
       comboAntiguedad.addItem("");
       comboAntiguedad.addItem("1 a 3 meses de prestamo");
       comboAntiguedad.addItem("4 a 8 meses de prestamo");
-      comboAntiguedad.addItem("9 meses a m·s de prestamo");
+      comboAntiguedad.addItem("9 meses a m√°s de prestamo");
 
-      labelResultado = new JLabel("Resultado del C·lculo:");
+      labelResultado = new JLabel("Resultado del C√°lculo:");
       labelResultado.setBounds(220,307,180,25);
       labelResultado.setFont(new Font("Andale Mono", 1, 12));
       labelResultado.setForeground(new Color(255, 255, 255));
@@ -194,12 +195,12 @@ public class Principal extends JFrame implements ActionListener{
       textarea1.setBackground(new Color(224, 224, 224));
       textarea1.setFont(new Font("Andale Mono", 1, 11));
       textarea1.setForeground(new Color(255, 0, 0));
-      textarea1.setText("\n   AquÌ aparece la cantidad que debe del libro prestado.");
+      textarea1.setText("\n   Aqu√≠ aparece la cantidad que debe del libro prestado.");
       scrollpane1 = new JScrollPane(textarea1);
       scrollpane1.setBounds(220,333,385,90);
       add(scrollpane1); 
 
-      labelfooter = new JLabel("©2018 KSK Company | Todos los derechos reservados");
+      labelfooter = new JLabel("¬©2018 KSK Company | Todos los derechos reservados");
       labelfooter.setBounds(135,445,500,30);
       labelfooter.setFont(new java.awt.Font("Andale Mono", 1, 12));
       labelfooter.setForeground(new java.awt.Color(255, 255, 255));
@@ -233,7 +234,7 @@ public class Principal extends JFrame implements ActionListener{
                                                           "\n   de codigo" + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 9 soles ");
 				}
-				if(Antiguedad.equals("9 meses a m·s de prestamo")){
+				if(Antiguedad.equals("9 meses a m√°s de prestamo")){
 					textarea1.setText("\n   El Usuario " + nombreTrabajador + " que debe del libro" + AP + 
                                                           "\n   de codigo" + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 50 soles ");
@@ -252,7 +253,7 @@ public class Principal extends JFrame implements ActionListener{
                                                           "\n   de codigo " + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 7 soles ");
 				}
-				if(Antiguedad.equals("9 meses a m·s de prestamo")){
+				if(Antiguedad.equals("9 meses a m√°s de prestamo")){
 					textarea1.setText("\n   El Usuario " + nombreTrabajador + " que debe del libro" + AP + 
                                                           "\n   de codigo " + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 30 soles ");
@@ -270,7 +271,7 @@ public class Principal extends JFrame implements ActionListener{
                                                           "\n   de codigo " + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 12 soles ");
 				}
-				if(Antiguedad.equals("9 meses a m·s de prestamo")){
+				if(Antiguedad.equals("9 meses a m√°s de prestamo")){
 					textarea1.setText("\n   El Usuario " + nombreTrabajador + " que debe del libro" + AP + 
                                                           "\n   de codigo " + AM + ", editorial " + Departamento +  
                                                           "\n   con un tiempo de prestamo " + Antiguedad + " DEBE: 70 soles ");
@@ -295,7 +296,7 @@ public class Principal extends JFrame implements ActionListener{
 	    txtAMaternoTrabajador.setText("");
             comboDepartamento.setSelectedIndex(0);
 	    comboAntiguedad.setSelectedIndex(0);
-	    textarea1.setText("\n   AquÌ aparece el resultado del c·lculo de las vacaciones.");	 
+	    textarea1.setText("\n   Aqu√≠ aparece el resultado del c√°lculo de las vacaciones.");	 
    
         }
 	if (e.getSource() == miSalir){
