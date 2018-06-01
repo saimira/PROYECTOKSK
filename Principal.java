@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-//holalaalaksmaubnshnasa
+//bienven
 
 public class Principal extends JFrame implements ActionListener{
   
